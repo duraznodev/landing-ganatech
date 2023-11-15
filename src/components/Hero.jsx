@@ -18,7 +18,10 @@ const Hero = () => {
           <p className="pb-2 text-lg text-gray-600">
             Maximiza Productividad y Salud del Ganado con GanaTech.
           </p>
-          <button className="flex items-center gap-x-2 self-start rounded-lg bg-primary px-5 py-3 text-lg font-bold text-white">
+          <a
+            href="https://www.ganatech.me/"
+            className="flex items-center gap-x-2 self-start rounded-lg bg-primary px-5 py-3 text-lg font-bold text-white"
+          >
             Ir a la aplicación
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,13 +31,13 @@ const Hero = () => {
             >
               <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
             </svg>
-          </button>
+          </a>
         </div>
         <div className="isolate order-first  flex max-w-[600px]  justify-center justify-self-center pb-8 md:order-last">
-          <div className="animate-wiggle animate-infinite animate-duration-[10000ms]  animate-reverse overflow-hidden rounded-2xl shadow-lg ">
+          <div className="animate-wiggle overflow-hidden rounded-2xl  shadow-lg animate-reverse animate-duration-[10000ms] animate-infinite ">
             <img className="" src={dashboardImg} />
           </div>
-          <div className="animate-wiggle animate-infinite animate-duration-[10000ms]  -translate-x-3 overflow-hidden rounded-2xl shadow-lg ">
+          <div className="-translate-x-3 animate-wiggle overflow-hidden  rounded-2xl shadow-lg animate-duration-[10000ms] animate-infinite ">
             <img className="" src={animalsImg} />
           </div>
           <svg
