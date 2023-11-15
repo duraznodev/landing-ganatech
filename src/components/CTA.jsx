@@ -10,7 +10,7 @@ const CTA = () => {
         <h1 class="title-font mb-2 text-3xl font-semibold text-emerald-950 sm:text-5xl">
           Planes
         </h1>
-        <p class="mx-auto text-lg leading-relaxed text-emerald-700 lg:w-2/3">
+        <p class="mx-auto px-4 text-lg leading-relaxed text-emerald-700 lg:w-2/3">
           Elige entre nuestros planes o escríbenos para un plan personalizado
         </p>
         <div class="mx-auto mt-6 flex overflow-hidden rounded border-2 border-primary text-lg font-semibold">
